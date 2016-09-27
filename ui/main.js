@@ -8,5 +8,5 @@ element.innerHTML='CN I HELP YOU';
 //move the image
 var img=document.getElementById('madi');
 img.onclick.function (); {
-    img.style.marginLeft='px';
+    img.style.marginLeft='10';
 }
