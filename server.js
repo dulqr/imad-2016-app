@@ -12,11 +12,11 @@ app.get('/article one',function(req,res){
   res.send('article one is reqsted and it will be served here');
 });
 app.get('/article two',function(req,res){
-  res.send('article 2 is reqsted and it will be served here');
+  res.send('article two is reqsted and it will be served here');
 });
 
 app.get('/article three',function(req,res){
-  res.send('article 3 is reqsted and it will be served here');
+  res.send('article three is reqsted and it will be served here');
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
